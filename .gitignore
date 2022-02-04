@@ -7,6 +7,6 @@ __pycache__/
 node_modules/
 .github/
 cloudinary_python.txt
-*.SQLite3
-*pyc 
+*.sqlite3
+*.pyc 
 
