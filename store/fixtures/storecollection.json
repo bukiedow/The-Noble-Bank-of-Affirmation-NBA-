@@ -1,0 +1,58 @@
+[
+  {
+    "pk": 1,
+    "model": "store.collection",
+    "fields": {
+      "name": "gratitude",
+      "friendly_name": "Gratitude"
+    }
+  },
+  {
+    "pk": 2,
+    "model": "store.collection",
+    "fields": {
+      "name": "Mugs",
+      "friendly_name": "Mugs"
+    }
+  },
+  {
+    "pk": 3,
+    "model": "store.collection",
+    "fields": {
+      "name": "confidence_booster",
+      "friendly_name": "Confidence Booster"
+    }
+  },
+  {
+    "pk": 4,
+    "model": "store.collection",
+    "fields": {
+      "name": "shirts",
+      "friendly_name": "Shirts"
+    }
+  },
+  {
+    "pk": 5,
+    "model": "store.collection",
+    "fields": {
+      "name": "sad",
+      "friendly_name": "Sad"
+    }
+  },
+  {
+    "pk": 6,
+    "model": "store.collection",
+    "fields": {
+      "name": "badges",
+      "friendly_name": "Badges"
+    }
+  },
+  {
+    "pk": 7,
+    "model": "store.collection",
+    "fields": {
+      "name": "all_the_feels",
+      "friendly_name": "All the Feels"
+    }
+  }
+]
