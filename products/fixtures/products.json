@@ -1,351 +1,351 @@
 [
   {
     "pk": 1,
-    "model": "store.product",
+    "model": "products.product",
     "fields": {
       "sku": "da1220223002",
       "name": "Gratitude Digital Affirmation",
       "description": "Digital copy of gartitude affirmation. High resolution available for download and print. All print sizes available. ",
       "price": 99.99,
-      "collection": 1,
+      "category": 1,
       "rating": 4.8,
       "image": "DA12.jpg"
     }
   },
   {
     "pk": 2,
-    "model": "store.product",
+    "model": "products.product",
     "fields": {
       "sku": "mm120223002",
       "name": "Positive Vibes Only Mug",
       "description": "Mug with positive vibes only design. Perfect for boosting confidence and when you have all the feels",
       "price": 38.49,
-      "collection": 2,
+      "category": 2,
       "rating": 4.9,
       "image": "mm1.jpg"
     }
   },
   {
     "pk": 3,
-    "model": "store.product",
+    "model": "products.product",
     "fields": {
       "sku": "da0520223003",
       "name": "Confidence Booster Digital Affirmation",
       "description": "Digital copy of confidence booster affirmation. Perfect for when you need that dose or overdose of confidence",
       "price": 99.99,
-      "collection": 3,
+      "category": 3,
       "rating": 4.7,
       "image": "da5.jpg"
     }
   },
   {
     "pk": 4,
-    "model": "store.product",
+    "model": "products.product",
     "fields": {
       "sku": "mm0102230033",
       "name": "Go getter Tee",
       "description": "Mens plain white tee shirt",
       "price": 49.99,
-      "collection": 4,
+      "category": 4,
       "rating": 5,
       "image": "mms1.jpg"
     }
   },
   {
     "pk": 5,
-    "model": "store.product",
+    "model": "products.product",
     "fields": {
       "sku": "da0920223004",
       "name": "Sad Digital Affirmation",
       "description": "daily affirmation to confess when sad. available in high resolution for printing and download.",
       "price": 99.99,
-      "collection": 5,
+      "category": 5,
       "rating": 5,
       "image": "da9.jpg"
     }
   },
   {
     "pk": 6,
-    "model": "store.product",
+    "model": "products.product",
     "fields": {
       "sku": "ba0120223005",
       "name": " Love Badge",
       "description": "Purple Pin badge with extra pin stoppers. Cotton and wool freindly ",
       "price": 9.99,
-      "collection": 6,
+      "category": 6,
       "rating": 4,
       "image": "badge1.jpg"
     }
   },
   {
     "pk": 7,
-    "model": "store.product",
+    "model": "products.product",
     "fields": {
       "sku": "da1020223006",
       "name": " All the Feels Digital Affirmation",
       "description": "Good vibes for when you do not know how you feel. available in high resolution for printing and download.",
       "price": 99.99,
-      "collection": 7,
+      "category": 7,
       "rating": 4.9,
       "image": "da10.jpg"
     }
   },
   {
     "pk": 8,
-    "model": "store.product",
+    "model": "products.product",
     "fields": {
       "sku": "da0620223007",
       "name": " Happy Bunny Digital Affirmation ",
       "description": "If you are happy and ypu know it, repeat after me",
       "price": 9.99,
-      "collection": 1,
+      "category": 1,
       "rating": 5,
       "image": "da6.jpg"
     }
   },
   {
     "pk": 9,
-    "model": "store.product",
+    "model": "products.product",
     "fields": {
       "sku": "mm0202230345",
       "name": " Phases Mugs ",
       "description": "Specially curated mugs fom Egypt with high gloss finishing.",
       "price": 19.99,
-      "collection": 2,
+      "category": 2,
       "rating": 3.5,
       "image": "mm2.jpg"
     }
   },
   {
     "pk": 10,
-    "model": "store.product",
+    "model": "products.product",
     "fields": {
       "sku": "da0320223117",
       "name": " Aim higher hun Digital Affirmation",
       "description": "Rush of energy guaranteed with this affirmation. available in high resolution for printing and download.",
       "price": 99.99,
-      "collection": 3,
+      "category": 3,
       "rating": 4.4,
       "image": "da3.jpg"
     }
   },
   {
     "pk": 11,
-    "model": "store.product",
+    "model": "products.product",
     "fields": {
       "sku": "mms022022312",
       "name": " Greatness Tee",
       "description": "Free size black mens tee ",
       "price": 35.49,
-      "collection": 4,
+      "category": 4,
       "rating": 4.8,
       "image": "mms2.jpg"
     }
   },
   {
     "pk": 12,
-    "model": "store.product",
+    "model": "products.product",
     "fields": {
       "sku": "da0720223183",
       "name": " Stop getting worked up  Digital Affirmation",
       "description": "If you have got the blues, Look in the mirrow and say this out loud. available in high resolution for printing and download. ",
       "price": 99.99,
-      "collection": 5,
+      "category": 5,
       "rating": 4.4,
       "image": "da7.jpg"
     }
   },
   {
     "pk": 13,
-    "model": "store.product",
+    "model": "products.product",
     "fields": {
       "sku": "ba0320223138",
       "name": " Orange love Badge",
       "description": "Tomorrow, tomorrow, I love you tomorrow, you are only a badge away.",
       "price": 9.99,
-      "collection": 6,
+      "category": 6,
       "rating": 4.9,
       "image": "badge3.jpg"
     }
   },
   {
     "pk": 14,
-    "model": "store.product",
+    "model": "products.product",
     "fields": {
       "sku": "da1120223999",
       "name": " It is well Digital Affirmation",
       "description": "Soul food guaranteed to kick you out of that mood. Available in high resolution for printing and download.",
       "price": 99.99,
-      "collection": 7,
+      "category": 7,
       "rating": 3.9,
       "image": "da11.jpg"
     }
   },
   {
     "pk": 15,
-    "model": "store.product",
+    "model": "products.product",
     "fields": {
       "sku": "da0820223436",
       "name": " Stay close Digital Affirmation",
       "description": "Don't isolate yourself. Speak to yourself. Available in high resolution for printing and download.",
       "price": 99.99,
-      "collection": 1,
+      "category": 1,
       "rating": 4.9,
       "image": "da8.jpg"
     }
   },
   {
     "pk": 16,
-    "model": "store.product",
+    "model": "products.product",
     "fields": {
       "sku": "da0221116654",
       "name": " Aim higher digital Affirmation",
       "description": "Reach for the stars. Available in high resolution for printing and download.",
       "price": 99.99,
-      "collection": 3,
+      "category": 3,
       "rating": 3.5,
       "image": "da2.jpg"
     }
   },
   {
     "pk": 17,
-    "model": "store.product",
+    "model": "products.product",
     "fields": {
       "sku": "mfs141116653",
       "name": " Stronger Tee",
       "description": "Black women tee shirt. pair with love badge",
       "price": 12.99,
-      "collection": 4,
+      "category": 4,
       "rating": 4.5,
       "image": "mfs1.jpg"
     }
   },
   {
     "pk": 17,
-    "model": "store.product",
+    "model": "products.product",
     "fields": {
       "sku": "da0420016613",
       "name": " You are enough Digital Affirmation",
       "description": " Available in high resolution for printing and download",
       "price": 99.99,
-      "collection": 5,
+      "category": 5,
       "rating": 4.5,
       "image": "da4.jpg"
     }
   },
   {
     "pk": 18,
-    "model": "store.product",
+    "model": "products.product",
     "fields": {
       "sku": "ba0220223999",
       "name": " Abstract badges",
       "description": " Set of 3 badges available in orange, teal and white.",
       "price": 18.99,
-      "collection": 6,
+      "category": 6,
       "rating": 5,
       "image": "badge2.jpg"
     }
   },
   {
     "pk": 19,
-    "model": "store.product",
+    "model": "products.product",
     "fields": {
       "sku": "da01231127724",
       "name": " Beautiful destinations Digital Affirmation",
       "description": "Available in high resolution for printing and download",
       "price": 99.99,
-      "collection": 7,
+      "category": 7,
       "rating": 5,
       "image": "da1.jpg"
     }
   },
   {
     "pk": 20,
-    "model": "store.product",
+    "model": "products.product",
     "fields": {
       "sku": "mms0312345678",
       "name": " Snow Tee ",
       "description": "Mens impeccable white tee",
       "price": 9.99,
-      "collection": 4,
+      "category": 4,
       "rating": 5,
       "image": "mms3.jpg"
     }
   },
   {
     "pk": 21,
-    "model": "store.product",
+    "model": "products.product",
     "fields": {
       "sku": "mfs022510371",
       "name": " Sand ",
       "description": "Tan tee shirt for women",
       "price": 99.99,
-      "collection": 4,
+      "category": 4,
       "rating": 5,
       "image": "mfs2.jpg"
     }
   },
   {
     "pk": 22,
-    "model": "store.product",
+    "model": "products.product",
     "fields": {
       "sku": "mfh032873112",
       "name": " Dark knight hoodie",
       "description": "Black hoodie",
       "price": 69.99,
-      "collection": 4,
+      "category": 4,
       "rating": 2.3,
       "image": "mfh3.jpg"
     }
   },
   {
     "pk": 23,
-    "model": "store.product",
+    "model": "products.product",
     "fields": {
       "sku": "mfh0276553112",
       "name": " Army hoodie",
       "description": "Camo green hoodie for female",
       "price": 29.99,
-      "collection": 4,
+      "category": 4,
       "rating": 5,
       "image": "mfh2.jpg"
     }
   },
   {
     "pk": 24,
-    "model": "store.product",
+    "model": "products.product",
     "fields": {
       "sku": "mmh189367648",
       "name": " Sunrise Hoodie",
       "description": "Yellow hoodie for women in cotton",
       "price": 99.99,
-      "collection": 4,
+      "category": 4,
       "rating": 3.5,
       "image": "mmh1.jpg"
     }
   },
   {
     "pk": 25,
-    "model": "store.product",
+    "model": "products.product",
     "fields": {
       "sku": "mmf0312527225",
       "name": " Rain Tee",
       "description": "White tee for women",
       "price": 99.99,
-      "collection": 4,
+      "category": 4,
       "rating": 5,
       "image": "mmf3.jpg"
     }
   },
   {
     "pk": 26,
-    "model": "store.product",
+    "model": "products.product",
     "fields": {
       "sku": "mh1198765443",
       "name": " Purple Rain",
       "description": "Purple female hoodie",
       "price": 5.99,
-      "collection": 4,
+      "category": 4,
       "rating": 4,
       "image": "mfh1.jpg"
     }
