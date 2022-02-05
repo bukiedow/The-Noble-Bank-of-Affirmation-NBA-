@@ -9,7 +9,7 @@
       "price": 99.99,
       "category": 1,
       "rating": 4.8,
-      "image": "DA12.jpg"
+      "image": "daa12.jpg"
     }
   },
   {
@@ -22,7 +22,7 @@
       "price": 38.49,
       "category": 2,
       "rating": 4.9,
-      "image": "mm1.jpg"
+      "image": "mmm1.jpg"
     }
   },
   {
@@ -35,7 +35,7 @@
       "price": 99.99,
       "category": 3,
       "rating": 4.7,
-      "image": "da5.jpg"
+      "image": "daa5.jpg"
     }
   },
   {
@@ -108,12 +108,12 @@
     "model": "products.product",
     "fields": {
       "sku": "mm0202230345",
-      "name": " Phases Mugs ",
-      "description": "Specially curated mugs fom Egypt with high gloss finishing.",
+      "name": " Joy Overflow Mug ",
+      "description": "Specially curated mug fom Egypt with high matte finishing.",
       "price": 19.99,
       "category": 2,
       "rating": 3.5,
-      "image": "mm2.jpg"
+      "image": "mmm2.jpg"
     }
   },
   {
@@ -160,12 +160,12 @@
     "model": "products.product",
     "fields": {
       "sku": "ba0320223138",
-      "name": " Orange love Badge",
+      "name": " Awesome set of Badges",
       "description": "Tomorrow, tomorrow, I love you tomorrow, you are only a badge away.",
       "price": 9.99,
       "category": 6,
       "rating": 4.9,
-      "image": "badge3.jpg"
+      "image": "badgee3.jpg"
     }
   },
   {
@@ -173,12 +173,12 @@
     "model": "products.product",
     "fields": {
       "sku": "da1120223999",
-      "name": " It is well Digital Affirmation",
+      "name": " Optimistic Affirmation",
       "description": "Soul food guaranteed to kick you out of that mood. Available in high resolution for printing and download.",
       "price": 99.99,
       "category": 7,
       "rating": 3.9,
-      "image": "da11.jpg"
+      "image": "daa11.jpg"
     }
   },
   {
@@ -227,10 +227,10 @@
       "sku": "da0420016613",
       "name": " You are enough Digital Affirmation",
       "description": " Available in high resolution for printing and download",
-      "price": 99.99,
+      "price": 299.99,
       "category": 5,
       "rating": 4.5,
-      "image": "da4.jpg"
+      "image": "daa4.jpg"
     }
   },
   {
@@ -238,12 +238,12 @@
     "model": "products.product",
     "fields": {
       "sku": "ba0220223999",
-      "name": " Abstract badges",
-      "description": " Set of 3 badges available in orange, teal and white.",
-      "price": 18.99,
-      "category": 6,
+      "name": " Prayer Affirmation",
+      "description": " sturdy white frame for prayer life. Available in print and download.",
+      "price": 108.99,
+      "category": 7,
       "rating": 5,
-      "image": "badge2.jpg"
+      "image": "da13.jpg"
     }
   },
   {
@@ -334,7 +334,7 @@
       "price": 99.99,
       "category": 4,
       "rating": 5,
-      "image": "mmf3.jpg"
+      "image": "mfs3.jpg"
     }
   },
   {
