@@ -1,353 +1,380 @@
 [
   {
-    "pk": 1,
-    "model": "products.product",
-    "fields": {
-      "sku": "da1220223002",
-      "name": "Gratitude Digital Affirmation",
-      "description": "Digital copy of gartitude affirmation. High resolution available for download and print. All print sizes available. ",
-      "price": 99.99,
-      "category": 1,
-      "rating": 4.8,
-      "image": "daa12.jpg"
-    }
+     "pk": 1,
+     "model": "products.product",
+     "fields": {
+        "sku": "da1220223002",
+        "name": "Gratitude Digital Affirmation",
+        "description": " Super grateful for something?, its time to affirm it. Available as Custom Photo download and Framing. A perfect gift for someone or yourself who needs reaffirmation of who they are and how far they have come. It is also useful for filling up those spaces when decorating your home!. This is available in various sizes including A5, A4 or A3, which are offered as either a digital download, unframed or framed - giving you lots of choice and a ready made (framed) gift for any special occasion ",
+        "lookAfterMe": "Do not fold. Take care to cut out the bleeding marks if framing yourself",
+        "price": 99.99,
+        "category": 1,
+        "rating": 4.8,
+        "image": "daa12.jpg"
+     }
   },
   {
-    "pk": 2,
-    "model": "products.product",
-    "fields": {
-      "sku": "mm120223002",
-      "name": "Positive Vibes Only Mug",
-      "description": "Mug with positive vibes only design. Perfect for boosting confidence and when you have all the feels",
-      "price": 38.49,
-      "category": 2,
-      "rating": 4.9,
-      "image": "mmm1.jpg"
-    }
+     "pk": 2,
+     "model": "products.product",
+     "fields": {
+        "sku": "mm120223002",
+        "name": "Positive Vibes Only Mug",
+        "description": "Mug with positive vibes only design. Perfect for boosting confidence and when you have all the feels",
+        "lookAfterMe": "Just here for the care instructions? Yeah, we thought so. Just pop it in the top layer of your dishwasher or give it a good ol scrubbing. Not too much scrubbing",
+        "price": 38.49,
+        "category": 2,
+        "rating": 4.9,
+        "image": "mmm1.jpg"
+     }
   },
   {
-    "pk": 3,
-    "model": "products.product",
-    "fields": {
-      "sku": "da0520223003",
-      "name": "Confidence Booster Digital Affirmation",
-      "description": "Digital copy of confidence booster affirmation. Perfect for when you need that dose or overdose of confidence",
-      "price": 99.99,
-      "category": 3,
-      "rating": 4.7,
-      "image": "daa5.jpg"
-    }
+     "pk": 3,
+     "model": "products.product",
+     "fields": {
+        "sku": "da0520223003",
+        "name": "Confidence Booster Digital Affirmation",
+        "description": " Whether you need it daily or monthly, your affirmations will always be here.  Available as Custom Photo download and Framing. A perfect gift for someone or yourself who needs reaffirmation of who they are and how far they have come. It is also useful for filling up those spaces when decorating your home!. This is available in various sizes including A5, A4 or A3, which are offered as either a digital download, unframed or framed - giving you lots of choice and a ready made (framed) gift for any special occasion",
+        "lookAfterMe": "Do not fold. Take care to cut out the bleeding marks if framing yourself",
+        "price": 99.99,
+        "category": 3,
+        "rating": 4.7,
+        "image": "daa5.jpg"
+     }
   },
   {
-    "pk": 4,
-    "model": "products.product",
-    "fields": {
-      "sku": "mm0102230033",
-      "name": "Go getter Tee",
-      "description": "Mens plain white tee shirt",
-      "price": 49.99,
-      "category": 4,
-      "rating": 5,
-      "image": "mms1.jpg"
-    }
+     "pk": 4,
+     "model": "products.product",
+     "fields": {
+        "sku": "mm0102230033",
+        "name": "Go getter Tee",
+        "description": "Mens plain white tee shirt. Soft jersey Made from organic cotton, Grown with less water and no pesticides. It's a win-win, improving the environment for both wildlife and cotton farmers. Main: 95% Cotton, 5% Elastane.",
+        "lookAfterMe": "Machine wash according to instructions on care label",
+        "price": 49.99,
+        "category": 4,
+        "rating": 5,
+        "image": "mms1.jpg"
+     }
   },
   {
-    "pk": 5,
-    "model": "products.product",
-    "fields": {
-      "sku": "da0920223004",
-      "name": "Sad Digital Affirmation",
-      "description": "daily affirmation to confess when sad. available in high resolution for printing and download.",
-      "price": 99.99,
-      "category": 5,
-      "rating": 5,
-      "image": "da9.jpg"
-    }
+     "pk": 5,
+     "model": "products.product",
+     "fields": {
+        "sku": "da0920223004",
+        "name": "Sad Digital Affirmation",
+        "description": "Daily affirmation to confess for those sad days.  Available as Custom Photo download and Framing. A perfect gift for someone or yourself who needs reaffirmation of who they are and how far they have come. It is also useful for filling up those spaces when decorating your home!. This is available in various sizes including A5, A4 or A3, which are offered as either a digital download, unframed or framed - giving you lots of choice and a ready made (framed) gift for any special occasion.",
+        "lookAfterMe": "Do not fold. Take care to cut out the bleeding marks if framing yourself",
+        "price": 99.99,
+        "category": 5,
+        "rating": 5,
+        "image": "da9.jpg"
+     }
   },
   {
-    "pk": 6,
-    "model": "products.product",
-    "fields": {
-      "sku": "ba0120223005",
-      "name": " Love Badge",
-      "description": "Purple Pin badge with extra pin stoppers. Cotton and wool freindly ",
-      "price": 9.99,
-      "category": 6,
-      "rating": 4,
-      "image": "badge1.jpg"
-    }
+     "pk": 6,
+     "model": "products.product",
+     "fields": {
+        "sku": "ba0120223005",
+        "name": " Love Badge",
+        "description": "Purple Pin badge with extra pin stoppers. Cotton and wool freindly ",
+        "lookAfterMe": "Dust gently with a damp wash cloth. Do not scrub with any hard material",
+        "price": 9.99,
+        "category": 6,
+        "rating": 4,
+        "image": "badge1.jpg"
+     }
   },
   {
-    "pk": 7,
-    "model": "products.product",
-    "fields": {
-      "sku": "da1020223006",
-      "name": " All the Feels Digital Affirmation",
-      "description": "Good vibes for when you do not know how you feel. available in high resolution for printing and download.",
-      "price": 99.99,
-      "category": 7,
-      "rating": 4.9,
-      "image": "da10.jpg"
-    }
+     "pk": 7,
+     "model": "products.product",
+     "fields": {
+        "sku": "da1020223006",
+        "name": " All the Feels Digital Affirmation",
+        "description": "Good vibes for when you do not know how you feel.  Available as Custom Photo download and Framing. A perfect gift for someone or yourself who needs reaffirmation of who they are and how far they have come. It is also useful for filling up those spaces when decorating your home!. This is available in various sizes including A5, A4 or A3, which are offered as either a digital download, unframed or framed - giving you lots of choice and a ready made (framed) gift for any special occasion",
+        "lookAfterMe": "Do not fold. Take care to cut out the bleeding marks if framing yourself",
+        "price": 99.99,
+        "category": 7,
+        "rating": 4.9,
+        "image": "da10.jpg"
+     }
   },
   {
-    "pk": 8,
-    "model": "products.product",
-    "fields": {
-      "sku": "da0620223007",
-      "name": " Happy Bunny Digital Affirmation ",
-      "description": "If you are happy and ypu know it, repeat after me",
-      "price": 9.99,
-      "category": 1,
-      "rating": 5,
-      "image": "da6.jpg"
-    }
+     "pk": 8,
+     "model": "products.product",
+     "fields": {
+        "sku": "da0620223007",
+        "name": " Happy Bunny Digital Affirmation ",
+        "description": "If you are happy and ypu know it, repeat after me.  Available as Custom Photo download and Framing A perfect gift for someone or yourself who needs reaffirmation of who they are and how far they have come. It is also useful for filling up those spaces when decorating your home!. This is available in various sizes including A5, A4 or A3, which are offered as either a digital download, unframed or framed - giving you lots of choice and a ready made (framed) gift for any special occasion",
+        "lookAfterMe": "Do not fold. Take care to cut out the bleeding marks if framing yourself",
+        "price": 9.99,
+        "category": 1,
+        "rating": 5,
+        "image": "da6.jpg"
+     }
   },
   {
-    "pk": 9,
-    "model": "products.product",
-    "fields": {
-      "sku": "mm0202230345",
-      "name": " Joy Overflow Mug ",
-      "description": "Specially curated mug fom Egypt with high matte finishing.",
-      "price": 19.99,
-      "category": 2,
-      "rating": 3.5,
-      "image": "mmm2.jpg"
-    }
+     "pk": 9,
+     "model": "products.product",
+     "fields": {
+        "sku": "mm0202230345",
+        "name": " Joy Overflow Mug ",
+        "description": " specially curated mug fom Egypt with high matte finishing. Funny, unique, pretty, or personal, it 's your choice for the perfect coffee mug. The outside of the mug features a bright white base for your photo, logo or saying, while the rim & handle are vividly glazed in rich color. Match or complement the color of your existing dinnerware set, or gift your friend a mug in his or her favorite color. Available in 11 - ounce or 15 - ounce with Dimensions:11 x 3.8 x 3.2. Microwave and dishwasher safe. Strong, ceramic construction. Meets FDA lawsfor food and beverage safety.",
+        "lookAfterMe": "Just here for the care instructions? Yeah, we thought so. Just pop it in the top layer of your dishwasher or give it a good ol scrubbing. Not too much scrubbing",
+        "price": 19.99,
+        "category": 2,
+        "rating": 3.5,
+        "image": "mmm2.jpg"
+     }
   },
   {
-    "pk": 10,
-    "model": "products.product",
-    "fields": {
-      "sku": "da0320223117",
-      "name": " Aim higher hun Digital Affirmation",
-      "description": "Rush of energy guaranteed with this affirmation. available in high resolution for printing and download.",
-      "price": 99.99,
-      "category": 3,
-      "rating": 4.4,
-      "image": "da3.jpg"
-    }
+     "pk": 10,
+     "model": "products.product",
+     "fields": {
+        "sku": "da0320223117",
+        "name": " Aim higher hun Digital Affirmation",
+        "description": "Rush of energy guaranteed with this affirmation.  Available as Custom Photo download and Framing. A perfect gift for someone or yourself who needs reaffirmation of who they are and how far they have come. It is also useful for filling up those spaces when decorating your home!. This is available in various sizes including A5, A4 or A3, which are offered as either a digital download, unframed or framed - giving you lots of choice and a ready made (framed) gift for any special occasion.",
+        "lookAfterMe": "Do not fold. Take care to cut out the bleeding marks if framing yourself",
+        "price": 99.99,
+        "category": 3,
+        "rating": 4.4,
+        "image": "da3.jpg"
+     }
   },
   {
-    "pk": 11,
-    "model": "products.product",
-    "fields": {
-      "sku": "mms022022312",
-      "name": " Greatness Tee",
-      "description": "Free size black mens tee ",
-      "price": 35.49,
-      "category": 4,
-      "rating": 4.8,
-      "image": "mms2.jpg"
-    }
+     "pk": 11,
+     "model": "products.product",
+     "fields": {
+        "sku": "mms022022312",
+        "name": " Greatness Tee",
+        "description": "Free size black mens tee. Soft jersey Made from organic cotton, Grown with less water and no pesticides. It's a win-win, improving the environment for both wildlife and cotton farmers. Main: 95% Cotton, 5% Elastane. ",
+        "lookAfterMe": "Machine wash according to instructions on care label",
+        "price": 35.49,
+        "category": 4,
+        "rating": 4.8,
+        "image": "mms2.jpg"
+     }
   },
   {
-    "pk": 12,
-    "model": "products.product",
-    "fields": {
-      "sku": "da0720223183",
-      "name": " Stop getting worked up  Digital Affirmation",
-      "description": "If you have got the blues, Look in the mirrow and say this out loud. available in high resolution for printing and download. ",
-      "price": 99.99,
-      "category": 5,
-      "rating": 4.4,
-      "image": "da7.jpg"
-    }
+     "pk": 12,
+     "model": "products.product",
+     "fields": {
+        "sku": "da0720223183",
+        "name": " Stop getting worked up  Digital Affirmation",
+        "description": "If you have got the blues, Look in the mirrow and say this out loud.  Available as Custom Photo download and Framing. A perfect gift for someone or yourself who needs reaffirmation of who they are and how far they have come. It is also useful for filling up those spaces when decorating your home!. This is available in various sizes including A5, A4 or A3, which are offered as either a digital download, unframed or framed - giving you lots of choice and a ready made (framed) gift for any special occasion. ",
+        "lookAfterMe": "Do not fold. Take care to cut out the bleeding marks if framing yourself",
+        "price": 99.99,
+        "category": 5,
+        "rating": 4.4,
+        "image": "da7.jpg"
+     }
   },
   {
-    "pk": 13,
-    "model": "products.product",
-    "fields": {
-      "sku": "ba0320223138",
-      "name": " Awesome set of Badges",
-      "description": "Tomorrow, tomorrow, I love you tomorrow, you are only a badge away.",
-      "price": 9.99,
-      "category": 6,
-      "rating": 4.9,
-      "image": "badgee3.jpg"
-    }
+     "pk": 13,
+     "model": "products.product",
+     "fields": {
+        "sku": "ba0320223138",
+        "name": " Awesome set of Badges",
+        "description": "Tomorrow, tomorrow, I love you tomorrow, you are only a badge away.",
+        "lookAfterMe": "Dust gently with a damp wash cloth. Do not scrub with any hard material",
+        "price": 9.99,
+        "category": 6,
+        "rating": 4.9,
+        "image": "badgee3.jpg"
+     }
   },
   {
-    "pk": 14,
-    "model": "products.product",
-    "fields": {
-      "sku": "da1120223999",
-      "name": " Optimistic Affirmation",
-      "description": "Soul food guaranteed to kick you out of that mood. Available in high resolution for printing and download.",
-      "price": 99.99,
-      "category": 7,
-      "rating": 3.9,
-      "image": "daa11.jpg"
-    }
+     "pk": 14,
+     "model": "products.product",
+     "fields": {
+        "sku": "da1120223999",
+        "name": " Optimistic Affirmation",
+        "description": " It will come through, do not worry. Available as Custom Photo download and Framing A perfect gift for someone or yourself who needs reaffirmation of who they are and how far they have come. It is also useful for filling up those spaces when decorating your home!. This is available in various sizes including A5, A4 or A3, which are offered as either a digital download, unframed or framed - giving you lots of choice and a ready made (framed) gift for any special occasion",
+        "lookAfterMe": "Do not fold. Take care to cut out the bleeding marks if framing yourself",
+        "price": 99.99,
+        "category": 7,
+        "rating": 3.9,
+        "image": "daa11.jpg"
+     }
   },
   {
-    "pk": 15,
-    "model": "products.product",
-    "fields": {
-      "sku": "da0820223436",
-      "name": " Stay close Digital Affirmation",
-      "description": "Don't isolate yourself. Speak to yourself. Available in high resolution for printing and download.",
-      "price": 99.99,
-      "category": 1,
-      "rating": 4.9,
-      "image": "da8.jpg"
-    }
+     "pk": 15,
+     "model": "products.product",
+     "fields": {
+        "sku": "da0820223436",
+        "name": " Stay close Digital Affirmation",
+        "description": "Hang in there buddy, you can make it with God on your side, He never leaves nor forsakes you.  Available as Custom Photo download and Framing. A perfect gift for someone or yourself who needs reaffirmation of who they are and how far they have come. It is also useful for filling up those spaces when decorating your home!. This is available in various sizes including A5, A4 or A3, which are offered as either a digital download, unframed or framed - giving you lots of choice and a ready made (framed) gift for any special occasion",
+        "lookAfterMe": "Do not fold. Take care to cut out the bleeding marks if framing yourself",
+        "price": 99.99,
+        "category": 1,
+        "rating": 4.9,
+        "image": "da8.jpg"
+     }
   },
   {
-    "pk": 16,
-    "model": "products.product",
-    "fields": {
-      "sku": "da0221116654",
-      "name": " Aim higher digital Affirmation",
-      "description": "Reach for the stars. Available in high resolution for printing and download.",
-      "price": 99.99,
-      "category": 3,
-      "rating": 3.5,
-      "image": "da2.jpg"
-    }
+     "pk": 16,
+     "model": "products.product",
+     "fields": {
+        "sku": "da0221116654",
+        "name": " Aim higher digital Affirmation",
+        "description": " We not going to let you settle for less over here. Repeat after us. Available as Custom Photo download and Framing. A perfect gift for someone or yourself who needs reaffirmation of who they are and how far they have come. It is also useful for filling up those spaces when decorating your home!. This is available in various sizes including A5, A4 or A3, which are offered as either a digital download, unframed or framed - giving you lots of choice and a ready made (framed) gift for any special occasion",
+        "lookAfterMe": "Do not fold. Take care to cut out the bleeding marks if framing yourself",
+        "price": 99.99,
+        "category": 3,
+        "rating": 3.5,
+        "image": "da2.jpg"
+     }
   },
   {
-    "pk": 17,
-    "model": "products.product",
-    "fields": {
-      "sku": "mfs141116653",
-      "name": " Stronger Tee",
-      "description": "Black women tee shirt. pair with love badge",
-      "price": 12.99,
-      "category": 4,
-      "rating": 4.5,
-      "image": "mfs1.jpg"
-    }
+     "pk": 17,
+     "model": "products.product",
+     "fields": {
+        "sku": "mfs141116653",
+        "name": " Stronger Tee",
+        "description": "Black women tee shirt. pair with love badge. Soft jersey Made from organic cotton, Grown with less water and no pesticides. It's a win-win, improving the environment for both wildlife and cotton farmers. Main: 95% Cotton, 5% Elastane.",
+        "lookAfterMe": "Machine wash according to instructions on care label",
+        "price": 12.99,
+        "category": 4,
+        "rating": 4.5,
+        "image": "mfs1.jpg"
+     }
   },
   {
-    "pk": 17,
-    "model": "products.product",
-    "fields": {
-      "sku": "da0420016613",
-      "name": " You are enough Digital Affirmation",
-      "description": " Available in high resolution for printing and download",
-      "price": 299.99,
-      "category": 5,
-      "rating": 4.5,
-      "image": "daa4.jpg"
-    }
+     "pk": 17,
+     "model": "products.product",
+     "fields": {
+        "sku": "da0420016613",
+        "name": " You are enough Digital Affirmation",
+        "description": "You will always be enough dear friend. Available as Custom Photo download and Framing. A perfect gift for someone or yourself who needs reaffirmation of who they are and how far they have come. It is also useful for filling up those spaces when decorating your home!. This is available in various sizes including A5, A4 or A3, which are offered as either a digital download, unframed or framed - giving you lots of choice and a ready made (framed) gift for any special occasion",
+        "lookAfterMe": "Do not fold. Take care to cut out the bleeding marks if framing yourself",
+        "price": 299.99,
+        "category": 5,
+        "rating": 4.5,
+        "image": "daa4.jpg"
+     }
   },
   {
-    "pk": 18,
-    "model": "products.product",
-    "fields": {
-      "sku": "ba0220223999",
-      "name": " Prayer Affirmation",
-      "description": " sturdy white frame for prayer life. Available in print and download.",
-      "price": 108.99,
-      "category": 7,
-      "rating": 5,
-      "image": "da13.jpg"
-    }
+     "pk": 18,
+     "model": "products.product",
+     "fields": {
+        "sku": "ba0220223999",
+        "name": " Prayer Affirmation",
+        "description": " Jesus has commanded us to pray without ceasing at all times and in all situations. My dear friend, PRAY. Available as Custom Photo download and Framing. A perfect gift for someone or yourself who needs reaffirmation of who they are and how far they have come. It is also useful for filling up those spaces when decorating your home!. This is available in various sizes including A5, A4 or A3, which are offered as either a digital download, unframed or framed - giving you lots of choice and a ready made (framed) gift for any special occasion",
+        "lookAfterMe": "Do not fold. Take care to cut out the bleeding marks if framing yourself",
+        "price": 108.99,
+        "category": 7,
+        "rating": 5,
+        "image": "da13.jpg"
+     }
   },
   {
-    "pk": 19,
-    "model": "products.product",
-    "fields": {
-      "sku": "da01231127724",
-      "name": " Beautiful destinations Digital Affirmation",
-      "description": "Available in high resolution for printing and download",
-      "price": 99.99,
-      "category": 7,
-      "rating": 5,
-      "image": "da1.jpg"
-    }
+     "pk": 19,
+     "model": "products.product",
+     "fields": {
+        "sku": "da01231127724",
+        "name": " Beautiful destinations Digital Affirmation",
+        "description": "No more excuses, push for it !. Available as Custom Photo download and Framing. A perfect gift for someone or yourself who needs reaffirmation of who they are and how far they have come. It is also useful for filling up those spaces when decorating your home!. This is available in various sizes including A5, A4 or A3, which are offered as either a digital download, unframed or framed - giving you lots of choice and a ready made (framed) gift for any special occasion",
+        "lookAfterMe": "Do not fold. Take care to cut out the bleeding marks if framing yourself",
+        "price": 99.99,
+        "category": 7,
+        "rating": 5,
+        "image": "da1.jpg"
+     }
   },
   {
-    "pk": 20,
-    "model": "products.product",
-    "fields": {
-      "sku": "mms0312345678",
-      "name": " Snow Tee ",
-      "description": "Mens impeccable white tee",
-      "price": 9.99,
-      "category": 4,
-      "rating": 5,
-      "image": "mms3.jpg"
-    }
+     "pk": 20,
+     "model": "products.product",
+     "fields": {
+        "sku": "mms0312345678",
+        "name": " Snow Tee ",
+        "description": "Mens impeccable white tee. Soft jersey Made from organic cotton, Grown with less water and no pesticides. It's a win-win, improving the environment for both wildlife and cotton farmers. Main: 95% Cotton, 5% Elastane.",
+        "lookAfterMe": "Machine wash according to instructions on care label",
+        "price": 9.99,
+        "category": 4,
+        "rating": 5,
+        "image": "mms3.jpg"
+     }
   },
   {
-    "pk": 21,
-    "model": "products.product",
-    "fields": {
-      "sku": "mfs022510371",
-      "name": " Sand ",
-      "description": "Tan tee shirt for women",
-      "price": 99.99,
-      "category": 4,
-      "rating": 5,
-      "image": "mfs2.jpg"
-    }
+     "pk": 21,
+     "model": "products.product",
+     "fields": {
+        "sku": "mfs022510371",
+        "name": " Sand ",
+        "description": "Tan tee shirt for women. Soft jersey Made from organic cotton, Grown with less water and no pesticides. It's a win-win, improving the environment for both wildlife and cotton farmers. Main: 95% Cotton, 5% Elastane.",
+        "lookAfterMe": "Machine wash according to instructions on care label",
+        "price": 99.99,
+        "category": 4,
+        "rating": 5,
+        "image": "mfs2.jpg"
+     }
   },
   {
-    "pk": 22,
-    "model": "products.product",
-    "fields": {
-      "sku": "mfh032873112",
-      "name": " Dark knight hoodie",
-      "description": "Black hoodie",
-      "price": 69.99,
-      "category": 4,
-      "rating": 2.3,
-      "image": "mfh3.jpg"
-    }
+     "pk": 22,
+     "model": "products.product",
+     "fields": {
+        "sku": "mfh032873112",
+        "name": " Dark knight hoodie",
+        "description": "Black hoodie. Soft Jersey Made from organic cotton, Grown with less water and no pesticides. It's a win-win, improving the environment for both wildlife and cotton farmers. Main: 95% Cotton, 5% Elastane.",
+        "lookAfterMe": "Machine wash according to instructions on care label",
+        "price": 69.99,
+        "category": 4,
+        "rating": 2.3,
+        "image": "mfh3.jpg"
+     }
   },
   {
-    "pk": 23,
-    "model": "products.product",
-    "fields": {
-      "sku": "mfh0276553112",
-      "name": " Army hoodie",
-      "description": "Camo green hoodie for female",
-      "price": 29.99,
-      "category": 4,
-      "rating": 5,
-      "image": "mfh2.jpg"
-    }
+     "pk": 23,
+     "model": "products.product",
+     "fields": {
+        "sku": "mfh0276553112",
+        "name": " Army hoodie",
+        "description": "Camo green hoodie for female. Soft jersey Made from organic cotton, Grown with less water and no pesticides. It's a win-win, improving the environment for both wildlife and cotton farmers. Main: 95% Cotton, 5% Elastane.",
+        "lookAfterMe": "Machine wash according to instructions on care label",
+        "price": 29.99,
+        "category": 4,
+        "rating": 5,
+        "image": "mfh2.jpg"
+     }
   },
   {
-    "pk": 24,
-    "model": "products.product",
-    "fields": {
-      "sku": "mmh189367648",
-      "name": " Sunrise Hoodie",
-      "description": "Yellow hoodie for women in cotton",
-      "price": 99.99,
-      "category": 4,
-      "rating": 3.5,
-      "image": "mmh1.jpg"
-    }
+     "pk": 24,
+     "model": "products.product",
+     "fields": {
+        "sku": "mmh189367648",
+        "name": " Sunrise Hoodie",
+        "description": "Yellow hoodie for women in cotton. Soft jersey Made from organic cotton, Grown with less water and no pesticides. It's a win-win, improving the environment for both wildlife and cotton farmers. Main: 95% Cotton, 5% Elastane.",
+        "lookAfterMe": "Machine wash according to instructions on care label",
+        "price": 99.99,
+        "category": 4,
+        "rating": 3.5,
+        "image": "mmh1.jpg"
+     }
   },
   {
-    "pk": 25,
-    "model": "products.product",
-    "fields": {
-      "sku": "mmf0312527225",
-      "name": " Rain Tee",
-      "description": "White tee for women",
-      "price": 99.99,
-      "category": 4,
-      "rating": 5,
-      "image": "mfs3.jpg"
-    }
+     "pk": 25,
+     "model": "products.product",
+     "fields": {
+        "sku": "mmf0312527225",
+        "name": " Rain Tee",
+        "description": "White tee for women. Soft jersey Made from organic cotton, Grown with less water and no pesticides. It's a win-win, improving the environment for both wildlife and cotton farmers. Main: 95% Cotton, 5% Elastane.",
+        "lookAfterMe": "Machine wash according to instructions on care label",
+        "price": 99.99,
+        "category": 4,
+        "rating": 5,
+        "image": "mfs3.jpg"
+     }
   },
   {
-    "pk": 26,
-    "model": "products.product",
-    "fields": {
-      "sku": "mh1198765443",
-      "name": " Purple Rain",
-      "description": "Purple female hoodie",
-      "price": 5.99,
-      "category": 4,
-      "rating": 4,
-      "image": "mfh1.jpg"
-    }
+     "pk": 26,
+     "model": "products.product",
+     "fields": {
+        "sku": "mh1198765443",
+        "name": " Purple Rain",
+        "description": "Purple female hoodie. Soft jersey Made from organic cotton, Grown with less water and no pesticides. It's a win-win, improving the environment for both wildlife and cotton farmers. Main: 95% Cotton, 5% Elastane.",
+        "lookAfterMe": "Machine wash according to instructions on care label",
+        "price": 5.99,
+        "category": 4,
+        "rating": 4,
+        "image": "mfh1.jpg"
+     }
   }
 ]
