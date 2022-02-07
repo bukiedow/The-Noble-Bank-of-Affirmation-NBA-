@@ -5,9 +5,9 @@
                 All Products
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="all-products-link">
-                <a href="" class="dropdown-item">By Price</a>
-                <a href="" class="dropdown-item ">By Rating</a>
-                <a href="" class="dropdown-item ">By Category</a>
+                <a href="{% url 'products' %}?sort=price&direction=asc" class="dropdown-item">By Price</a>
+                <a href="{% url 'products' %}?sort=rating&direction=desc" class="dropdown-item ">By Rating</a>
+                <a href="{% url 'products' %}?sort=category&direction=asc" class="dropdown-item ">By Category</a>
                 <a href="{% url 'products' %}" class="dropdown-item">All Products</a>
             </div>
         </li>
@@ -17,11 +17,11 @@
                 Digital Affirmations
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="digitalaffirmations-link">
-                <a href="" class="dropdown-item">Gratitude</a>
-                <a href="" class="dropdown-item">Confidence Booster</a>
-                <a href="" class="dropdown-item">Sad</a>
-                <a href="" class="dropdown-item">All the feels</a>
-                <a href="" class="dropdown-item">All Digital Affirmations</a>
+                <a href="{% url 'products' %}?category=gratitude" class="dropdown-item">Gratitude</a>
+                <a href="{% url 'products' %}?category=confidence booster" class="dropdown-item">Confidence Booster</a>
+                <a href="{% url 'products' %}?category=sad" class="dropdown-item">Sad</a>
+                <a href="{% url 'products' %}?category=all the feels" class="dropdown-item">All the feels</a>
+                <a href="{% url 'products' %}?category=gratitude,confidence booster, sad, all the feels" class="dropdown-item">All Digital Affirmations</a>
             </div>
         </li>
 
@@ -30,10 +30,10 @@
                 Affirmations Merch
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="affirmationsmerch-link">
-                <a href="" class="dropdown-item">Mugs</a>
-                <a href="" class="dropdown-item">Shirts</a>
-                <a href="" class="dropdown-item">Badges</a>
-                <a href="" class="dropdown-item">All Affirmations Merch</a>
+                <a href="{% url 'products' %}?category=mugs" class="dropdown-item">Mugs</a>
+                <a href="{% url 'products' %}?category=shirts" class="dropdown-item">Shirts</a>
+                <a href="{% url 'products' %}?category=badges" class="dropdown-item">Badges</a>
+                <a href="{% url 'products' %}?category=mugs,shirts,badges" class="dropdown-item">All Affirmations Merch</a>
             </div>
         </li>
 
