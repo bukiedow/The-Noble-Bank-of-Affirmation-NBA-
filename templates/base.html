@@ -44,6 +44,8 @@
                     <h2 class="logo-font text-black my-0"><strong>The Noble Bank of</strong> Affirmations</h2>
                 </a>
             </div>
+
+            <!--Search bar-->
             <div class="col-12 col-lg-4 my-auto py-1 py-lg-0">
                 <form method="GET" action="{% url 'products' %}">
                     <div class="input-group w-100">
@@ -58,6 +60,8 @@
                     </div>
                 </form>
             </div>
+
+            <!--social media-->
             <div class="col-12 col-lg-4 my-auto py-1 py-lg-0">
                 <ul class="list-inline list-unstyled text-center text-lg-right my-0">
                     <li class="list-inline-item">
@@ -68,6 +72,8 @@
                             </div>
                         </a>
                     </li>
+
+                    <!--User acount-->
                     <li class="list-inline-item dropdown">
                         <a class="text-black nav-link" href="#" id="user-options" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             <div class="text-center">
@@ -88,6 +94,8 @@
                             {% endif %}
                         </div>
                     </li>
+
+                    <!--User liked items-->
                     <li class="list-inline-item">
                         <a class="text-black nav-link" href="#" id="user-likes">
                             <div class="text-center">
@@ -96,8 +104,10 @@
                             </div>
                         </a>
                     </li>
+
+                    <!---User basket-->
                     <li class="list-inline-item">
-                        <a class="{% if grand_total %}text-info font-weight-bold{% else %}text-black{% endif %} nav-link" href="">
+                        <a class="{% if grand_total %}text-info font-weight-bold{% else %}text-black{% endif %} nav-link" href="{% url 'view_basket' %}">
                             <div class="text-center">
                                 <div><i class="fas fa-shopping-bag fa-lg"></i></div>
                                 <p class="my-0">
@@ -123,11 +133,13 @@
                     {% include 'includes/main-nav.html' %}
                 </nav>
             </div>
+
+            <!---scroll banner-->
             <div id="news-banner" class="row text-center">
                 <div class="col bg-black text-white">
                     <marquee behavior="alternate" direction="left" height:="" 
                     loop="7" scrollamount="1" scrolldelay="2" width="100%">
-                    <h4 class="logo-font my-1"><i>God Comforts Me in All Tribulations .. I Am Sufficient in God.. I Will Not Fear Evil.. God Is My Helper ..God Will Make My Dreams Come True ..God Is My Strength ..My Steps Are Established by God..  God Is Always Present in My Life..  Be Still, My Heart..</i></h4>      
+                    <h4 class="logo-font my-1"><i>God Comforts Me in All Tribulations ......Get Free delivery on orders over £{{ free_delivery_threshold }}!...... I Will Not Fear Evil......Get Free delivery on orders over £{{ free_delivery_threshold }}!......God Is My Helper ........Get Free delivery on orders over £{{ free_delivery_threshold }}!......God Will Make My Dreams Come True.......Get Free delivery on orders over £{{ free_delivery_threshold }}!......God Is My Strength ......My Steps Are Established by God...... God Is Always Present in My Life.......Get Free delivery on orders over £{{ free_delivery_threshold }}!...... Be Still, My Heart..</i></h4>      
                     </marquee>         
                 </div>            
             </div>
@@ -136,7 +148,7 @@
 
     {% if messages %}
     <div class="message-container">
-        {% for message in messages %}
+        <!--{% for message in messages %}
         {% with message.level as level %}
         {% if level == 40 %}
         {% include 'includes/toasts/toast_error.html' %}
@@ -149,7 +161,7 @@
         {% endif %}
         {% endwith %}
         {% endfor %}
-    </div>
+    </div>-->
     {% endif %}
 
     {% block page_header %}
@@ -157,8 +169,6 @@
                                                                                                                      
     <!--Main page content goes here-->
     {% block content %}
-    
-
     {% endblock %}
 
     {% block postloadjs %}
