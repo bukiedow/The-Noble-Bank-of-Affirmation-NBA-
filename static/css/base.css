@@ -93,6 +93,150 @@ a.category-badge > span.badge:hover {
     cursor: pointer;
 }
 
+.message-container {
+    position: fixed;
+    top: 72px;
+    right: 15px;
+    z-index: 99999999999;
+}
+
+.custom-toast {
+    overflow: visible;
+}
+
+.toast-capper {
+    height: 2px;
+}
+
+
+.arrow-up {
+    width: 0; 
+    height: 0; 
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent; 
+    border-bottom: 10px solid black;
+    position: absolute;
+    top: -10px;
+    right: 36px;
+}
+
+/* Convenience classes - colors copied from Bootstrap */
+.arrow-primary {
+    border-bottom-color: #007bff !important;
+}
+
+.arrow-secondary {
+    border-bottom-color: #6c757d !important;
+}
+
+.arrow-success {
+    border-bottom-color: #28a745 !important;
+}
+
+.arrow-danger {
+    border-bottom-color: #dc3545 !important;
+}
+
+.arrow-warning {
+    border-bottom-color: #ffc107 !important;
+}
+
+.arrow-info {
+    border-bottom-color: #17a2b8 !important;
+}
+
+.arrow-light {
+    border-bottom-color: #f8f9fa !important;
+}
+
+.arrow-dark {
+    border-bottom-color: #343a40 !important;
+}
+
+.basket-notification-wrapper {
+    height: 100px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+
+/*social media icons*/
+
+.smicons {
+    margin: 3px;
+    position:fixed;
+    top:43%;
+    right: 0%;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.smicons a {
+    text-decoration:none;
+    text-transform:uppercase;
+    padding: 10px;
+    font-size: 15px;
+    font-family: 'Oswald', sans-serif;
+    margin:2px;
+    text-align:left;
+    border-radius: 50px 0px 0px 50px;
+    transform: translate(150px, 0px);
+    transition: all 0.5s;
+}
+
+
+.smicons a:hover {
+    transform: translate(0px, 0px);
+}
+
+
+.smicons a i {
+    margin-right: 20px;
+    background-color: white;
+    height: 30px;
+    width: 30px;
+    color: black;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 50%;
+    transition: all 0.5s;
+}
+
+.smicons a:hover i {
+    transform: rotate(360deg);
+}
+
+.smicons a i.fa-facebook {
+    color: #2c80d3;
+}
+
+.smicons a i.fa-instagram {
+    color:  #C13584;
+}
+
+
+.smicons a i.fa-youtube {
+    color: #fa0910;
+}
+
+
+.facebook {
+    background-color: #2c80d3;
+    color:white;
+}
+
+.instagram {
+    background-color: #C13584;
+    color:white;
+}
+
+.youtube {
+    background-color: #fa0910;
+    color:white;
+}
+
+
 /* -------------------------------- Media Queries */
 
 /* larger container for xl screens */
