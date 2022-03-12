@@ -47,6 +47,7 @@ INSTALLED_APPS = [
     'products',
     'basket',
     'checkout',
+    'crispy_forms',
 ]
 
 MIDDLEWARE = [
@@ -66,6 +67,8 @@ INTERNAL_IPS = [
 
 ROOT_URLCONF = 'NBA.urls'
 
+CRISPY_TEMPLATE_PACK = 'bootstrap4'
+
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
@@ -83,6 +86,10 @@ TEMPLATES = [
                 'django.template.context_processors.media',
                 'basket.contexts.basket_contents',
             ],
+            'builtins': [
+                'crispy_forms.templatetags.crispy_forms_tags',
+                'crispy_forms.templatetags.crispy_forms_field',
+            ]
         },
     },
 ]
