@@ -9,11 +9,10 @@ from basket.contexts import basket_contents
 	
 import stripe
 	
-
 def checkout(request):
 	stripe_public_key = settings.STRIPE_PUBLIC_KEY
 	stripe_secret_key = settings.STRIPE_SECRET_KEY
-	
+
 	if request.method == 'POST':
 	    basket = request.session.get('basket', {})
 
