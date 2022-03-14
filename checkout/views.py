@@ -2,25 +2,20 @@ from django.shortcuts import render, redirect, reverse, get_object_or_404
 from django.contrib import messages
 from django.conf import settings
 	
-
 from .forms import OrderForm
 from .models import Order, OrderLineItem
 from products.models import Product
 from basket.contexts import basket_contents
 	
-
 import stripe
 	
 
-	
 def checkout(request):
 	stripe_public_key = settings.STRIPE_PUBLIC_KEY
 	stripe_secret_key = settings.STRIPE_SECRET_KEY
 	
-
 	if request.method == 'POST':
 	    basket = request.session.get('basket', {})
-	
 
 	    form_data = {
 	        'full_name': request.POST['full_name'],
@@ -33,7 +28,6 @@ def checkout(request):
 	        'street_address2': request.POST['street_address2'],
 	        'county': request.POST['county'],
 	    }
-
 	    order_form = OrderForm(form_data)
 	    if order_form.is_valid():
 	        order = order_form.save()
@@ -105,28 +99,22 @@ def checkout(request):
 	    return render(request, template, context)
 	
 
+def checkout_success(request, order_number):
+	save_info = request.session.get('save_info')
+	order = get_object_or_404(Order, order_number=order_number)
+	messages.success(request, f'Order successfully processed! \
+	    Your order number is {order_number}. A confirmation \
+	    email will be sent to {order.email}. if you ordered a digital affirmation, you will receive another email containing your download')
+	
+	if 'basket' in request.session:
+	    del request.session['basket']
 	
 
-	def checkout_success(request, order_number):
-	    """
-	    Handle successful checkouts
-	    """
-	    save_info = request.session.get('save_info')
-	    order = get_object_or_404(Order, order_number=order_number)
-	    messages.success(request, f'Order successfully processed! \
-	        Your order number is {order_number}. A confirmation \
-	        email will be sent to {order.email}. if you ordered a digital affirmation, you will receive another email containing your download')
+	template = 'checkout/checkout_success.html'
+	context = {
+	    'order': order,
+	}
 	
 
-	    if 'basket' in request.session:
-	        del request.session['basket']
-	
-
-	    template = 'checkout/checkout_success.html'
-	    context = {
-	        'order': order,
-	    }
-	
-
-	    return render(request, template, context)
+	return render(request, template, context)
 

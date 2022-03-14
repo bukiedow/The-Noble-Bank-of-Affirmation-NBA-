@@ -1,5 +1,4 @@
 asgiref==3.5.0
-countries==0.2.0
 Django==3.2
 django-allauth==0.41.0
 django-crispy-forms==1.14.0
